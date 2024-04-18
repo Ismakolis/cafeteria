@@ -1,0 +1,133 @@
+/*Estilos de la cabeza de la pagina web*/
+
+header {
+    border: 50px;
+    background-color: rgb(119, 42, 42);
+    height: 100px;
+    width: 100%;
+}
+
+nav {
+    display: inline;
+}
+
+#btn-acerca-de {
+    padding: 10px;
+    color: aliceblue;
+    display: inline;
+}
+
+#btn-menu {
+    color: aliceblue;
+    padding: 10px;
+    display: inline;
+}
+
+#btn-galeia {
+    padding: 10px;
+    color: aliceblue;
+    display: inline;
+}
+
+#btn-ubicacion {
+    padding: 10px;
+    color: aliceblue;
+    display: inline;
+}
+
+#contenedorlogo {
+    display: inline;
+    margin-left: 1150px;
+}
+
+#imlogo {
+
+    display: inline;
+    height: 70px;
+    width: 70px;
+    margin-top: 5px;
+}
+
+/**Estilo de la imgen central de la pagina web**/
+#imcentral {
+    height: 450px;
+    width: 1568px;
+}
+
+/**Estilos del texto central**/
+.texto-central {
+    padding-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*Estilos de menu (para comer)*/
+#platillos {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(189, 39, 39);
+}
+
+.categoria {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(138, 46, 46);
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.platito {
+    right: 100px;
+    border: 10px rgba(141, 72, 25, 0.801) solid;
+    padding: 10px;
+    height: 180px;
+    width: 50%;
+    text-align: center;
+    position:relative;
+    margin-top: 15px;
+    margin-left: 30%;
+}
+.nombre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+/*Estilos de la galeria*/
+.titulo-galeria{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(119, 76, 20);
+    padding: 30px;
+}
+.galeria{
+    display: block;
+    border: 10px rgba(212, 123, 20, 0.801) solid;
+}
+.foto{
+    display: inline;
+    width:23%;
+    padding: 10px;
+}
+/*Estilos de la ubicacion*/
+#ubicacion{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(158, 45, 45);
+}
+/*Estilos del mapa*/
+.mapa{
+    margin-left: 23%;
+}
+
+/*Estilos del footer*/
+.copyrigh{
+    border:  black;
+    color: beige;
+    background-color: black;
+    height: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+
